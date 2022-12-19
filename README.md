@@ -1,1 +1,2 @@
 # UCR
+Electrical engineering
