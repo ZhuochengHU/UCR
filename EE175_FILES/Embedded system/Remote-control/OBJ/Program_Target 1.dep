@@ -1,0 +1,164 @@
+Dependencies for Project 'Program', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SYSTEM\delay\delay.h)(0x62241207)
+I (..\SYSTEM\sys\sys.h)(0x621C148C)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+I (..\MyCode\UART2.h)(0x621B7A34)
+F (.\stm32f10x_it.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x621B7A34)
+I (stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (system_stm32f10x.h)(0x621B7A34)
+I (stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (.\system_stm32f10x.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (system_stm32f10x.h)(0x621B7A34)
+I (stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\MyCode\UART2.c)(0x621C2D08)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\uart2.o --omf_browse ..\obj\uart2.crf --depend ..\obj\uart2.d)
+I (..\MyCode\UART2.h)(0x621B7A34)
+I (..\SYSTEM\sys\sys.h)(0x621C148C)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+I (..\SYSTEM\delay\delay.h)(0x62241207)
+F (..\CORE\core_cm3.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+F (..\CORE\startup_stm32f10x_md.s)(0x621B7A34)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (..\STM32_FWLIB\src\misc.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+F (..\STM32_FWLIB\src\stm32f10x_gpio.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\STM32_FWLIB\src\stm32f10x_rcc.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\STM32_FWLIB\src\stm32f10x_usart.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\STM32_FWLIB\src\stm32f10x_rtc.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
+I (..\STM32_FWLIB\inc\stm32f10x_rtc.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\STM32_FWLIB\src\stm32f10x_tim.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\SYSTEM\delay\delay.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x62241207)
+I (..\SYSTEM\sys\sys.h)(0x621C148C)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\SYSTEM\sys\sys.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x621C148C)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+F (..\SYSTEM\usart\usart.c)(0x621B7A34)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32_FWLIB\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\MyCode-IC:\Users\wenzh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x621C148C)
+I (..\USER\stm32f10x.h)(0x621B7A34)
+I (..\CORE\core_cm3.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6026047E)
+I (..\USER\system_stm32f10x.h)(0x621B7A34)
+I (..\USER\stm32f10x_conf.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_tim.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\stm32f10x_usart.h)(0x621B7A34)
+I (..\STM32_FWLIB\inc\misc.h)(0x621B7A34)
+I (..\SYSTEM\usart\usart.h)(0x621B7A34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60260474)

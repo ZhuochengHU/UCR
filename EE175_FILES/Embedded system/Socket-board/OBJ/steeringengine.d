@@ -1,0 +1,15 @@
+..\obj\steeringengine.o: ..\MyCode\SteeringEngine.c
+..\obj\steeringengine.o: ..\MyCode\SteeringEngine.h
+..\obj\steeringengine.o: ..\SYSTEM\sys\sys.h
+..\obj\steeringengine.o: ..\USER\stm32f10x.h
+..\obj\steeringengine.o: ..\CORE\core_cm3.h
+..\obj\steeringengine.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\steeringengine.o: ..\USER\system_stm32f10x.h
+..\obj\steeringengine.o: ..\USER\stm32f10x_conf.h
+..\obj\steeringengine.o: ..\STM32_FWLIB\inc\stm32f10x_gpio.h
+..\obj\steeringengine.o: ..\USER\stm32f10x.h
+..\obj\steeringengine.o: ..\STM32_FWLIB\inc\stm32f10x_rcc.h
+..\obj\steeringengine.o: ..\STM32_FWLIB\inc\stm32f10x_tim.h
+..\obj\steeringengine.o: ..\STM32_FWLIB\inc\stm32f10x_usart.h
+..\obj\steeringengine.o: ..\STM32_FWLIB\inc\misc.h
+..\obj\steeringengine.o: ..\SYSTEM\delay\delay.h
